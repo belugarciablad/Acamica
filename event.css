@@ -1,0 +1,162 @@
+input:checked + #page {
+  color: #f7f7f7;
+  background: #222430;
+}
+
+input:checked + #page form input {
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+input:checked + #page form label:hover, input:checked + #page form input:hover {
+  color: orange;
+}
+
+input:checked + #page .initial-container {
+  background-image: url("https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80g");
+  background-size: cover;
+}
+
+input:checked + #page footer p {
+  color: orange;
+}
+
+* {
+  text-transform: uppercase;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #page {
+  height: 100%;
+}
+
+html {
+  background: #f7f7f7;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#theme-switch {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+#icon-label {
+  text-transform: lowercase;
+  font-size: 12px;
+  font-family: monospace;
+}
+
+.initial-container {
+  height: 100%;
+  background-image: url("https://www.marsdd.com/wp-content/uploads/2020/01/blog-tech-conferences.jpg");
+}
+
+.initial-container .principal, .initial-container h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+.principal:nth-child(2) {
+  font-size: 45px;
+  padding-top: 14px;
+}
+
+.principal:nth-child(3) {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.principal:nth-child(2):hover {
+  transform: rotate3d(360deg);
+}
+
+.principal:nth-child(4) {
+  text-transform: initial;
+  font-size: 12px;
+  padding: 20px;
+}
+
+.principal:nth-child(5) {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+form {
+  position: fixed;
+  top: 61.5%;
+  width: 100%;
+}
+
+form h3 {
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+form label {
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+form label:hover, form input:hover {
+  color: purple;
+}
+
+footer {
+  position: fixed;
+  bottom: 3px;
+  width: 100%;
+  text-align: right;
+}
+
+footer p {
+  text-transform: initial;
+  padding-top: 6px;
+  padding-right: 10px;
+  font-weight: bold;
+  color: purple;
+}
+
+footer .icons .fab {
+  padding: 10px;
+  width: 35px;
+}
+
+footer .icons .fab:first-child {
+  background: #1DA1F2;
+}
+
+footer .icons .fab:nth-child(2) {
+  background: #3b5998;
+}
+
+footer .icons .fab:nth-child(3) {
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  margin-right: 5px;
+}
+
+.label-form {
+  display: block;
+  margin: 10px;
+  width: 250px;
+  height: 27px;
+}
+
+.input-form {
+  border: 0.5px solid;
+  border-radius: 17px;
+  height: 30px;
+  position: relative;
+  left: 10px;
+  float: right;
+  height: 100%;
+}
